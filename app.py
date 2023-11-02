@@ -14,7 +14,7 @@ def incoming_messages():
 import africastalking
 africastalking.initialize(
     username='sandbox',
-    api_key='304e4fb4ca6b5d47ddf2bc22c0976c39428d6e13581c532c57bddcd1dc42d792'
+    api_key='Your API Key'
 )
 sms = africastalking.SMS
 def send_sms(text,number):
